@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'motion/react';
-import { Plant } from '../types';
+import { Plant } from '@/types';
 import { Flower, TreeDeciduous, Leaf } from 'lucide-react';
 
 interface GardenProps {
