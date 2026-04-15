@@ -1,4 +1,4 @@
-import { Task } from '../types';
+import { Task } from '@/types';
 import { CheckCircle2, Circle, Droplets, Activity, Heart, Wind, Calendar, BookOpen, Move, Cloud, Layout, Phone } from 'lucide-react';
 import { motion } from 'motion/react';
 import { cn } from '@/lib/utils';
