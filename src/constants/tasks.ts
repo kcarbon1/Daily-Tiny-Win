@@ -1,4 +1,4 @@
-import { Task } from '../types';
+import { Task } from '@/types';
 
 export const DAILY_TASKS_POOL: Omit<Task, 'completed'>[] = [
   { id: '1', title: 'Drink a glass of water', category: 'health', points: 10, icon: 'Droplets' },
