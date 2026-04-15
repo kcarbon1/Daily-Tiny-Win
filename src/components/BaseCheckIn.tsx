@@ -1,7 +1,7 @@
 import { useAccount, useConnect, useDisconnect, useWriteContract } from 'wagmi';
 import { injected } from 'wagmi/connectors';
-import { Button } from './ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Wallet, CheckCircle, Loader2 } from 'lucide-react';
 import { useState } from 'react';
 
